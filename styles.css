@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   transition: all 0.4s ease-in-out;
+}
+
+.active_base_btn{
+   display: none !important;
+}
+
+.main{
+   width: 200px;
+   margin: 250px auto;
+}
+
+.base_btn{
+   width: 220px !important;
+   height: 60px !important;
+   font-size: 25px !important;
+   float: left !important;
+   margin: auto;
+   font-family: cursive;
+   border-top-right-radius: 30px !important;
+   border-bottom-left-radius: 30px !important;
+}
+
+.base_btn:hover{
+   border-top-right-radius: 0 !important;
+   border-bottom-left-radius: 0 !important;
+   border-top-left-radius: 30px !important;
+   border-bottom-right-radius: 30px !important;
+}
+
+.fade_body{
+   background-color: #808080;
+}
+
+.active{
+   top:6% !important;
+   left: 35% !important;
+   box-shadow: 400px 200px 200px 0 gray;
+}
+
+.container {
+   position: absolute;
+   top: 0;
+   left: -50%;
+   width: 440px;
+   height: 545px;
+   background: #FFFFFF;
+   border: 1px solid rgb(245, 245, 245);
+   border-radius: 5px;
+   /* margin: 50px auto; */
+   padding: 20px 30px 30px 30px;
+}
+
+.top-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #d8d8d8;
+}
+
+.top-section>h3 {
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 700;
+   letter-spacing: 0.01em;
+   color: #4E2D2D;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   padding-top: 30px;
+}
+
+.card {
+   width: 380px;
+   height: 132px;
+   padding: 14px;
+   background: #FFFFFF;
+   border: 1px solid #E6E6E6;
+   border-radius: 8px;
+}
+
+.card_img {
+   float: left;
+   margin-right: 16px;
+}
+
+.card_subtitle {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   color: #808080;
+}
+
+.stars {
+   float: right;
+}
+
+.card_title {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #292929;
+   margin-top: 6px;
+}
+
+.card_bottom_part{
+   display: flex;
+   margin-top: 6px;
+}
+
+.card_price {
+   display: block;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: #FD9339;
+   letter-spacing: -0.03px;
+}
+
+.card_btn,
+.base_btn {
+   width: 110px;
+   height: 32px;
+   background: #FD9339;
+   border: none;
+   border-radius: 5px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #FFFFFF;
+   margin-left: 11px;
+   float: right;
+}
+
+.card_btn:hover,
+.base_btn:hover {
+   opacity: 0.8;
+}
